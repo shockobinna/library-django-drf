@@ -1,1 +1,1 @@
-web: gunicorn librarydrf.wsgi
+web: gunicorn librarydrf.wsgi --log-file 
