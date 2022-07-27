@@ -27,8 +27,9 @@ SECRET_KEY = 'django-insecure-12ech+f^fxfe%lhdmwj7178g4t*o0$bva(7ay6f-e#6b=l*gdk
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    
-    
+    'localhost', 
+    '127.0.0.1:8000',
+    'library-django-drf.herokuapp.com/'
 ]
 
 
